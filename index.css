@@ -1,0 +1,138 @@
+.slide_box{
+    width: 100%;
+    overflow: hidden;
+}
+.slide_wrap{
+    width: 15360px;
+    padding-left: 0;
+}
+.slide_item{
+    list-style: none;
+    float: left;
+}
+.slide_item img{
+    width: 1920px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width:100%; height: 100px;
+    justify-content: space-around;
+}
+.header_logo{
+    display: flex;
+    
+}
+.header_search{
+    position: absolute;left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: inset 0 0 3px 0 #8f91b6, 0 0 3px 0 #8f91b6;
+    margin-top: 20px;
+}
+.header_search input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: white;
+}
+.header_search button{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: white;
+    border-radius: 15px;
+}
+ion-icon {
+    font-size: 30px;
+}
+
+.header_nav{
+    position: absolute;right: 150px;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.header_nav a{
+    color: #9c9c9c;
+    font-size: 13px;
+    font-weight: 400;
+}
+.cate_cate0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.cate0_left{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.cate0_left a{
+    color: #FF9995;
+}
+.cate0_left img{
+    width: 35px;
+    height: 25px;
+}
+.cate0_right{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 0 0 134px;
+}
+.cate0_right a{
+    color: #818181;
+    font-size: 14px;
+}
+
+.cate_cate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.cate1_list{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+}
+.cate1_list a{
+    color: #818181;
+    font-size: 14px;
+}
+.main_slide{
+    width: 100%;
+    overflow: hidden;
+}
+.main_wrap{
+    width: 15360px;
+    padding-left: 0;
+}
+.main_img{
+    float: left;
+}
+.slide_item img{
+    width: 1920px;
+}
