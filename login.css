@@ -1,0 +1,189 @@
+.slide_box{
+    width: 100%;
+    overflow: hidden;
+}
+.slide_wrap{
+    width: 5760px;
+}
+.slide_item{
+    float: left;
+}
+.slide_item img{
+    width: 1920px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width:100%; height: 100px;
+    justify-content: space-around;
+}
+.header_logo{
+    display: flex;
+    
+}
+.header_search{
+    position: absolute;left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: inset 0 0 3px 0 #8f91b6, 0 0 3px 0 #8f91b6;
+    margin-top: 20px;
+}
+.header_search input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: white;
+}
+.header_search button{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: white;
+    border-radius: 15px;
+}
+ion-icon {
+    font-size: 30px;
+}
+
+.header_nav{
+    position: absolute;right: 150px;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.mypage{
+  width: 170px;
+  height: 56px;
+  margin-top: 35px;
+  background-image: url("https://atimg.sonyunara.com/2021/renewal/main/main_icon_pc.png?a=17");
+  background-position: -469px -3px;;
+}
+
+.header_nav a{
+    color: #9c9c9c;
+    font-size: 13px;
+    font-weight: 400;
+}
+.cate_cate0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.cate0_left{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.cate0_left a{
+    color: #FF9995;
+}
+.cate0_left img{
+    width: 35px;
+    height: 25px;
+}
+.cate0_right{
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    margin: 0 0 0 134px;
+}
+.cate0_right a{
+    color: #818181;
+    font-size: 14px;
+}
+
+.cate_cate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.cate1_list{
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+}
+.cate1_list a{
+    color: #818181;
+    font-size: 14px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;height: 150px;
+    background: #FF9995;
+}
+.title h2{
+    font-size: 30px;
+}
+.title p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background: #818181;
+}
+.kakao{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 960px;
+    height: 850px;
+    background: palegreen;
+    border-radius: 15px;
+}
+.kakao img{
+    border-radius: 15px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    width: 960px;
+    height: 50px;
+    background: yellow;
+    border-radius: 15px;
+}
+.input p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.input  a{
+    color: black;
+}
+.input img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
