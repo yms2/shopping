@@ -110,6 +110,7 @@ ion-icon {
 }
 
 .cate_cate1{
+    display: fi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +132,6 @@ ion-icon {
     justify-content: center;
     align-items: center;
     width: 100%;height: 150px;
-    background: #FF9995;
 }
 .title h2{
     font-size: 30px;
@@ -145,8 +145,7 @@ ion-icon {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 1000px;
-    background: #818181;
+    height: 700px;
 }
 .kakao{
     display: flex;
@@ -154,7 +153,6 @@ ion-icon {
     align-items: baseline;
     width: 960px;
     height: 850px;
-    background: palegreen;
     border-radius: 15px;
 }
 .kakao img{
@@ -187,3 +185,153 @@ ion-icon {
     width: 30px;
     height: 30px;
 }
+.login_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+.login_r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height:500px ;
+}
+.login_input h2{
+    margin-top: 35px;
+}
+.login_input input{
+    margin-top: 15px;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0px;
+    border: 1px solid#d3d3d3;;
+}
+.check input{
+    width: 17px;
+    height: 17px;
+}
+.click_log a{
+    color: white;
+}
+.click_log{
+    margin:15px;
+    width: 400px;
+    height: 55px;
+    background: #925fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_input p{
+    font-size: 15px;
+    color: white;
+}
+.login_l{
+    text-align: center;
+    width: 50%;
+    height: 500px;
+}
+.click_log1{
+    margin:15px 42px;
+    width: 400px;
+    height: 55px;
+    background: #925fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click_log2{
+    margin:15px 42px;
+    width: 400px;
+    height:55px;
+    background: white;
+    border: 1px solid #925fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click_log2 p{
+    color: #925fff;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    border-top:1px solid #5555;
+  }
+  .footer_top{
+    display: flex;
+    justify-content: space-between  ;
+    width: 1300px;
+    height: 470px;
+  }
+  .top_r{
+    width: 380px;
+    height: 100%;
+  }
+  .footer_top li{
+    margin-top: 12px;
+  }
+  .top_c{
+    width: 380px;
+    height: 100%;
+  }
+  .top_l{
+    width: 380px;
+    height: 100%;
+  }
+  
+  .footer_top h3{
+    margin-top: 30px;
+  }
+  .footer_top img{
+    margin: 20px 0 0 35px;
+    border-radius: 15px;
+    width: 270px; height: 150px;
+  }
+  .social{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    background-image: url("https://atimg.sonyunara.com/2021/renewal/main/main_icon_pc.png?a=17");
+    background-position: -305px -453px;;
+  }
+  .bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid #5555;
+  }
+  .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1300px;
+    height: 100px;
+  }
+  .footer_bottom ul{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_bottom .b2{
+    width: 400px;
+  }
+  .footer_bottom a{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+  }
+  
