@@ -30,7 +30,7 @@ function move(){
 
       curIndex++;
 
-      if(curIndex === 6){
+      if(curIndex === 4){
           curIndex = -1;
       }
   },3000)
